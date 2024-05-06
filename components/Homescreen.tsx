@@ -53,7 +53,7 @@ const Homescreen = (props: HomescreenProps) => {
   return (
     <div className="m-auto flex flex-col w-full h-[100vh] items-center justify-center">
       <div className="flex w-[80%] h-auto flex-col items-start m-3">
-        <h3 className="hello-text">Hello, John</h3>
+        <h3 className="hello-text">Hello,</h3>
         <p className="text-[white] paragraph">How can I help you today?</p>
       </div>
       <div className="flex flex-row justify-start items-start max-h-[40vh] w-[80%]">
