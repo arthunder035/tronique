@@ -18,7 +18,7 @@ const Homescreen = (props: HomescreenProps) => {
   const { handleChangeMessageHistory } = useRoot();
 
   const fixedQuestions = [
-    "How many views did the JustMoney project receive in each season?",
+    "Top 10 users who have engaged the most in season 5.",
     "Which are the trending projects in season 5?",
     "List all users who have posted more than 10 times on a single topic in season 5.",
     "Top 10 users who have engaged the most in season 4.",
