@@ -27,6 +27,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(111.07deg, #2F2F2F 1.67%, #161616 93.78%);
+  /* background: linear-gradient(111.07deg, #2F2F2F 1.67%, #161616 93.78%); */
   /* background: linear-gradient(
       to bottom,
       transparent,
@@ -35,6 +36,8 @@ body {
     rgb(var(--background-start-rgb)); */
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    height: 100vh;
 }
 
 @layer utilities {

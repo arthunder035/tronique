@@ -111,11 +111,11 @@ const MessageHistory = (props: MessageHistoryProps) => {
             <div>
               <Table data={data} />
             </div>
-            <div>
+            <div className="w-full">
               <Plot
                 data={props.plotlyResult?.data}
                 layout={props.plotlyResult?.layout}
-                style={{ width: "100%", height: "100%" }}
+                // style={{ width: "100%", height: "100%" }}
               />
             </div>
           </>
@@ -134,10 +134,10 @@ const MessageHistory = (props: MessageHistoryProps) => {
   return (
     <div
       ref={chatRef}
-      className="m-0 p-0 text-white w-full h-[85%] overflow-y-scroll"
+      className="m-0 p-0 text-white w-full h-[80%] sm:h-[85%] overflow-y-scroll"
     >
       {messageHistory?.map((val, ix) => (
-        <div key={val?.messageId} className="mx-8 my-8 overflow-hidden">
+        <div key={val?.messageId} className="mx-8 overflow-hidden">
           {val?.ai && (
             <div className="flex flex-col items-start justify-center">
               <ChatBubble
